@@ -20,8 +20,8 @@ public class Main {
 		myaccount.withdraw(200); //Deposit $200
 		System.out.println("After withdrawal: $" + myaccount.getBalance());
 		
-//		myaccount.applyInterest();
-//		System.out.println("After applying interest: $" + myaccount.getBalance());
+		myaccount.applyInterest();
+		System.out.println("After applying interest: $" + myaccount.getBalance());
 
 		
 	}
