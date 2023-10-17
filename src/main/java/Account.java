@@ -52,5 +52,11 @@ public class Account {
 		
 	}
 	
+	public void displayAccountdetails() {
+		
+		System.out.println("Account balance: $" + balance);
+
+	}
+	
 
 }
