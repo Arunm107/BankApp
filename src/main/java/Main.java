@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main (String[] args) {
 		
-		Account myaccount = new Account (1000); //Starting with $1000
+		Account myaccount = new Account (1001); //Starting with $1000
 		
 		System.out.println("Initial balance: $" + myaccount.getBalance());
 		
