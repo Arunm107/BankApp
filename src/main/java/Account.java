@@ -47,7 +47,9 @@ public class Account {
 	
 	public void applyInterest() {
 		
-		double interestRate = 0.05; //5% annual interest
+		System.out.println("Applying interest...");
+
+		double interestRate = 0.06; //6% annual interest
 		balance += balance *interestRate;
 		
 	}
