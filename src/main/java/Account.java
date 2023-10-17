@@ -45,12 +45,12 @@ public class Account {
 	}
 	
 	
-//	public void applyInterest() {
-//		
-//		double interestRate = 0.05; //5% annual interest
-//		balance += balance *interestRate;
-//		
-//	}
+	public void applyInterest() {
+		
+		double interestRate = 0.05; //5% annual interest
+		balance += balance *interestRate;
+		
+	}
 	
 
 }
