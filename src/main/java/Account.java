@@ -10,7 +10,7 @@ public class Account {
 	public Account(double intialBalance) {
 
 
-		if (intialBalance >0) {
+		if (intialBalance >1) {
 	
 			this.balance = intialBalance;
 			
